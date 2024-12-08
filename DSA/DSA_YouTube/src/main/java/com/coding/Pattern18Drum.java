@@ -16,7 +16,7 @@ public class Pattern18Drum {
             }
 
             for (int j = 1; j <= star ; j++) {
-                if(i > 1 && i <= n /2 && j > 1 && j < star){
+                if(i > 1 && i <= n /2 && j > 1 && j < star){ //understand this condition
                     System.out.print("\t");
                 }else{
 

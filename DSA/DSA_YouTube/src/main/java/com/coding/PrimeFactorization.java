@@ -1,7 +1,7 @@
 package com.coding;
 
 import java.util.Scanner;
-
+//multiplication of prime number that forms a number
 public class PrimeFactorization {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
