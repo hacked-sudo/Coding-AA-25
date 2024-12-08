@@ -1,5 +1,6 @@
 package com.coding;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayBarChart {
@@ -35,7 +36,8 @@ public class ArrayBarChart {
         }
         System.out.println("maxHeight : " + maxHeight);
 
-
+        System.out.println(Arrays.toString(spaceArr));
+        System.out.println(spaceArr);
         System.out.println("Calling My Approach ");
         for (int k = 0; k < maxHeight; k++) {
             for (int i = 0; i < spaceArr.length; i++) {

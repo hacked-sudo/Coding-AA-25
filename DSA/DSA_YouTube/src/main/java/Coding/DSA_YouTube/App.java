@@ -1,4 +1,4 @@
-package Coding.DSA_YouTube;
+package com.coding;
 
 /**
  * Hello world!
