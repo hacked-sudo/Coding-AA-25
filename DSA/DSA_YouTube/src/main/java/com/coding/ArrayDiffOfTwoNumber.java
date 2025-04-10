@@ -28,7 +28,7 @@ public class ArrayDiffOfTwoNumber {
             int digit1 = 0;
             int digit2 = 0;
             int outDigit;
-
+                            
             if (i >= 0){
                 digit1 = firstArr[i];
             }

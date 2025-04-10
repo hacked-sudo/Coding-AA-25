@@ -6,7 +6,7 @@ public class FibonacciNumber
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int num = scn.nextInt();
-        fibonacci(num);
+        fibonacci2(num);
     }
 
     private static void fibonacci_FirstTry(int num) {
@@ -43,10 +43,21 @@ public class FibonacciNumber
         int second = 1;
 
         for(int i = 0; i < number; i++){
-            int third = first + second;
             System.out.print(first +  " ");
+            int third = first + second;
             first = second;
             second = third;
+        }
+    }
+    public static void fibonacci2(int number){
+        int first = 0;
+        int second = 1;
+
+        for(int i = 0; i < number; i++){
+            System.out.print(first +  " ");
+            int temp = first + second;
+            first = second;
+            second = temp;
         }
     }
 }

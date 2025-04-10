@@ -18,7 +18,7 @@ public class ArraySumOf2Array {
             secondArr[i] = sc.nextInt();
         }
 
-        int[] outputArr = new int[n1 > n2 ? n1 : n2];
+        int[] outputArr = new int[Math.max(n1, n2)];
         int i = firstArr.length - 1;
         int j = secondArr.length - 1;
         int k = outputArr.length - 1;
